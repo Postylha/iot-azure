@@ -1,5 +1,4 @@
 <?php
-    $s = "iot-azure"
 
-    echo "<h1>$s</h1>"
+    echo "<h1>first app</h1>";
 ?>
