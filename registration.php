@@ -1,4 +1,4 @@
-<form action="index.php" method="post">
+<form action="index4.php" method="post">
     <div>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" />
