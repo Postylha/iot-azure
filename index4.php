@@ -22,7 +22,7 @@
 	
 	fwrite($file2, "\n". $text1);
 	fclose($file2);
-} else {
-	echo '<h1 class="display-4">You need to provide your name and email address.</h1>';
-}
+  } else {
+		echo '<h1 class="display-4">You need to provide your name and email address.</h1>';
+  }
 ?>
