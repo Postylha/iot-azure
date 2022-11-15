@@ -8,8 +8,8 @@
   
   echo "sum of params = $c";
 
-  if (isset($_POST['name'], $_POST['email'])) {
-	$name = htmlspecialchars($_POST['name']);
+  if (isset($_POST['fname'], $_POST['email'])) {
+	$fname = htmlspecialchars($_POST['fname']);
 	$email = htmlspecialchars($_POST['email']);
 
 	// show the $name and $email
