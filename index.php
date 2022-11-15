@@ -8,6 +8,6 @@
 	    
 </head>
 <body>
-  <h1 class="display-4">Index</p>
+  <h1 class="display-4">Index</h1>
   <a href="registration.php" class="link-secondary">Click here to register</a>
 </body>
