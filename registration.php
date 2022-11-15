@@ -1,6 +1,6 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<style>
 		body {
 			background-color:#ECF1F9;
@@ -47,10 +47,11 @@
         </div>
 
 		<div class="form-group">
-		  <input type="checkbox" id="privacy" name="privacy" value="privacy">
+		  <input required type="checkbox" id="privacy" name="privacy" value="privacy">
 		  <label for="privacy">I Agree to Privacy Policy</label><br>
 		  <input type="checkbox" id="notification" name="notification" value="notification">
 		  <label for="vehicle2">I'd like to receive notification</label><br>
+		  <p id="agree" class="text-danger">You can not continue without agreement with policy</p>
 		</div>
 		<button type="submit" class="btn btn-outline-dark" id="submit-btn">Submit</button>
     </div>
