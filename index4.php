@@ -10,14 +10,14 @@
 	echo "Please check your inbox $email for futher instruction.";
 	
 
-	$file1 = fopen("main.txt","w") or die("Unable to open file!");
-	$text1 = "firstName=" . $fname . "lastName=" . $lname . "email=" . $email;
+	$file1 = fopen("main.txt","a") or die("Unable to open file!");
+	$text1 = "firstName=" . $fname . " lastName=" . $lname . " email=" . $email;
 
 	fwrite($file1, $text1);
 	fclose($file1);
 	
-	$file2 = fopen("additional.txt","w") or die("Unable to open file!");
-	$text1 = "phone=" . htmlspecialchars($_POST['phone']);
+	$file2 = fopen("additional.txt","a") or die("Unable to open file!");
+	$text1 = "phone=" . htmlspecialchars($_POST['phone']) . " birthday=" . htmlspecialchars($_POST['birthday']) . " information=" . htmlspecialchars($_POST['information']);
 	
 	fwrite($file2, $text1);
 	fclose($file2);
