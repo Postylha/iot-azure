@@ -7,8 +7,8 @@
 	$email = htmlspecialchars($_POST['email']);
 
 	// show the $name and $email
-	echo "<h1 class="display-3">Thanks $fname for your subscription.<br>";
-	echo "Please check your inbox $email for futher instruction.</h1>";
+	echo '<h1 class="display-3">Thanks $fname for your subscription.<br>';
+	echo 'Please check your inbox $email for futher instruction.</h1>';
 	
 
 	$file1 = fopen("main.txt","a") or die("Unable to open file!");
