@@ -1,3 +1,3 @@
 <?php
-     echo 'server message';
+     echo 'new server message';
 ?>
