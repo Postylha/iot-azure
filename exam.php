@@ -1,8 +1,8 @@
 <?php
      
-     if (!empty($_POST))
+     if (isset($_POST['h']))
      {
-          echo $_POST[0];    
+          echo $_POST['h'];    
           echo 'server message';
      } else {
           echo 'prazdna stranka';
